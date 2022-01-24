@@ -18,7 +18,6 @@ body{
 }
 /* common css end */
 
-
 /* navbar css start */
 .nav-link{
     font-weight: 500;
@@ -53,6 +52,21 @@ body{
 }
 /* package end */
 
+/* faq start */
+.faq-question{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+.accordion-button:not(.collapsed) {
+    color: #1E1E1E;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button:focus {
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+/* faq end */
 
 
 
